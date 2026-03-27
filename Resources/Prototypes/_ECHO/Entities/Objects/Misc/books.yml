@@ -1,5 +1,5 @@
 - type: entity
-  id: ECHOBookECHOCoctailsRecipe
+  id: EchoBookEchoCoctailsRecipe
   parent: BaseItem
   name: new coctails note
   description: Red note with a recipes of new cocktails. Writen by R.S.

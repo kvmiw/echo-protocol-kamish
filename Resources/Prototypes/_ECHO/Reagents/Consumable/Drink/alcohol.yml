@@ -3,7 +3,7 @@
 #Антивирус и Вишневое вино ввести после допила спрайтов
 
 # - type: reagent
-#   id: ECHOVodkaAntivirus
+#   id: EchoVodkaAntivirus
 #   name: vodka-antivirus-name
 #   parent: Vodka
 #   desc: vodka-antivirus-desc
@@ -20,7 +20,7 @@
 #         amount: 0.9
 
 # - type: reagent
-#   id: ECHOCherryExquisiteWine
+#   id: EchoCherryExquisiteWine
 #   name: cherry-exq-wine-name
 #   parent: BaseAlcohol
 #   desc: cherry-exq-wine-desc
@@ -40,7 +40,7 @@
 #         amount: 0.05
 
 - type: reagent
-  id: ECHOAppleLiqueur
+  id: EchoAppleLiqueur
   name: apple-liqueur-name
   parent: ECHOSugarKnight
   desc: apple-liqueur-desc
@@ -66,7 +66,7 @@
 #Коктейли от Кекса/Стычинского и Кермита
 
 - type: reagent
-  id: ECHOSugarKnight
+  id: EchoSugarKnight
   name: sugar-knight-name
   parent: BaseAlcohol
   desc: sugar-knight-desc
@@ -89,7 +89,7 @@
         amount: 0.1
 
 - type: reagent
-  id: ECHOGrapeLady
+  id: EchoGrapeLady
   name: grape-lady-name
   parent: ECHOSugarKnight
   desc: grape-lady-desc
@@ -112,7 +112,7 @@
         amount: 0.1
 
 - type: reagent
-  id: ECHOSaturdayBaron
+  id: EchoSaturdayBaron
   name: saturday-baron-name
   parent: ECHOSugarKnight
   desc: saturday-baron-desc
@@ -135,7 +135,7 @@
         amount: 0.15
 
 - type: reagent
-  id: ECHOArcticLatte
+  id: EchoArcticLatte
   name: artic-latte-name
   parent: ECHOSugarKnight
   desc: artic-latte-desc
@@ -163,7 +163,7 @@
         amount: -2500
 
 - type: reagent
-  id: ECHOSpecialTeaOolong
+  id: EchoSpecialTeaOolong
   name: special-teaoolong-name
   parent: ECHOSugarKnight
   desc: special-teaoolong-desc
@@ -186,7 +186,7 @@
         amount: 0.3
 
 - type: reagent
-  id: ECHOAzureBlue
+  id: EchoAzureBlue
   name: azure-blue-name
   parent: ECHOSugarKnight
   desc: azure-blue-desc
@@ -209,7 +209,7 @@
         amount: 0.15
 
 - type: reagent
-  id: ECHOPenetrationDrink
+  id: EchoPenetrationDrink
   name: penetration-drink-name
   parent: ECHOSugarKnight
   desc: penetration-drink-desc
@@ -232,7 +232,7 @@
         amount: 0.15
 
 - type: reagent
-  id: ECHOEclipsedEclispe
+  id: EchoEclipsedEclispe
   name: eclipsed-eclipse-name
   parent: ECHOSugarKnight
   desc: eclipsed-eclipse-desc
@@ -255,7 +255,7 @@
         amount: 0.6
 
 - type: reagent
-  id: ECHOSpaceBush
+  id: EchoSpaceBush
   name: space-bush-name
   parent: ECHOSugarKnight
   desc: space-bush-desc
@@ -278,7 +278,7 @@
         amount: 0.15
 
 - type: reagent
-  id: ECHOBusinessConversation
+  id: EchoBusinessConversation
   name: business-conversation-name
   parent: ECHOSugarKnight
   desc: business-conversation-desc
@@ -304,7 +304,7 @@
         amount: 0.2
 
 - type: reagent
-  id: ECHOAppleMartini
+  id: EchoAppleMartini
   name: apple-martini-name
   parent: ECHOSugarKnight
   desc: apple-martini-desc
@@ -327,7 +327,7 @@
         amount: 0.15
 
 - type: reagent
-  id: ECHOBacardiApple
+  id: EchoBacardiApple
   name: bacardi-apple-name
   parent: ECHOSugarKnight
   desc: bacardi-apple-desc
@@ -350,7 +350,7 @@
         amount: 0.15
 
 - type: reagent
-  id: ECHOElderGuards
+  id: EchoElderGuards
   name: elder-guards-name
   parent: ECHOSugarKnight
   desc: elder-guards-desc
@@ -373,7 +373,7 @@
         amount: 0.2
 
 - type: reagent
-  id: ECHOLimeShade
+  id: EchoLimeShade
   name: lime-shade-name
   parent: BaseAlcohol
   desc: lime-shade-desc
@@ -401,7 +401,7 @@
           min: 20
 
 - type: reagent
-  id: ECHOTeqilaOldFashion
+  id: EchoTeqilaOldFashion
   name: teqila-oldfashioned-name
   parent: BaseAlcohol
   desc: teqila-oldfashioned-desc
@@ -424,7 +424,7 @@
         amount: 0.15
 
 - type: reagent
-  id: ECHOJackieWelles
+  id: EchoJackieWelles
   name: jackie-welles-name
   parent: BaseAlcohol
   desc: jackie-welles-desc
@@ -464,7 +464,7 @@
         probability: 0.05
 
 - type: reagent
-  id: ECHOTheSilverhand
+  id: EchoTheSilverhand
   name: the-silverhand-name
   parent: BaseAlcohol
   desc: the-silverhand-desc
