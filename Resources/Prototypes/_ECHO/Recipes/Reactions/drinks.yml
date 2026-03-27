@@ -1,0 +1,539 @@
+#Безалкогольные коктейли от Кекса/Стычинского и Кермита
+
+- type: reaction
+  id: ECHOSummerShade
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    JuiceWatermelon:
+      amount: 3
+    Ice:
+      amount: 1
+    JuiceLime:
+      amount: 2
+  products:
+    ECHOSummerShade: 6
+
+- type: reaction
+  id: ECHOWinterSun
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    CafeLatte:
+      amount: 3
+    Cream:
+      amount: 2
+  products:
+    ECHOWinterSun: 5
+
+- type: reaction
+  id: ECHOHungoverAngel
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    SodaWater:
+      amount: 3
+    Ice:
+      amount: 1
+    JuiceLemon:
+      amount: 2
+  products:
+    ECHOHungoverAngel: 6
+
+- type: reaction
+  id: ECHOCitrusBalance
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    JuiceLime:
+      amount: 2
+    JuiceOrange:
+      amount: 2
+    Ice:
+      amount: 1
+  products:
+    ECHOCitrusBalance: 5
+
+- type: reaction
+  id: ECHODobryiDrink
+  reactants:
+    JuiceOrange:
+      amount: 1
+    LemonLime:
+      amount: 1
+    Cola:
+      amount: 1
+  products:
+    ECHODobryiDrink: 3
+
+- type: reaction
+  id: ECHOMilkEclipse
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    IceCream:
+      amount: 2
+    Tea:
+      amount: 2
+    Milk:
+      amount: 1
+  products:
+    ECHOMilkEclipse: 5
+
+- type: reaction
+  id: ECHOArcticExplosion
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    IceCream:
+      amount: 3
+    SodaWater:
+      amount: 2
+    Ice:
+      amount: 1
+  products:
+    ECHOArcticExplosion: 6
+
+#Алкогольные коктейли от Кекса/Стычинского и Кермита
+
+- type: reaction
+  id: ECHOSugarKnight
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Wine:
+      amount: 4
+    Sugar:
+      amount: 1
+    Cream:
+      amount: 1
+  products:
+    ECHOSugarKnight: 6
+
+- type: reaction
+  id: ECHOGrapeLady
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Wine:
+      amount: 3
+    Vermouth:
+      amount: 2
+    Cream:
+      amount: 1
+  products:
+    ECHOGrapeLady: 6
+
+- type: reaction
+  id: ECHOSaturdayBaron
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    Ice:
+      amount: 1
+    Rum:
+      amount: 3
+    JuiceLemon:
+      amount: 1
+    Sugar:
+      amount: 1
+  products:
+    ECHOSaturdayBaron: 6
+
+- type: reaction
+  id: ECHOArcticLatte
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    CoffeeLiqueur:
+      amount: 1
+    IcedCoffee:
+      amount: 4
+    Cream:
+      amount: 1
+  products:
+    ECHOArcticLatte: 6
+
+- type: reaction
+  id: ECHOSpecialTeaOolong
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Sugar:
+      amount: 1
+    Whiskey:
+      amount: 2
+    Vodka:
+      amount: 7
+  products:
+    ECHOSpecialTeaOolong: 10
+
+- type: reaction
+  id: ECHOAzureBlue
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    BlueCuracao:
+      amount: 2
+    Ice:
+      amount: 1
+    Vodka:
+      amount: 2
+    SodaWater:
+      amount: 1
+  products:
+    ECHOAzureBlue: 6
+
+- type: reaction
+  id: ECHOPenetrationDrink
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Wine:
+      amount: 3
+    ECHOAppleLiqueur:
+      amount: 1
+    Sugar:
+      amount: 1
+    JuiceLime:
+      amount: 3
+    Ice:
+      amount: 1
+    SodaWater:
+      amount: 1
+  products:
+    ECHOPenetrationDrink: 10
+
+- type: reaction
+  id: ECHOEclipsedEclispe
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    GargleBlaster:
+      amount: 1
+    Moonshine:
+      amount: 1
+  products:
+    ECHOEclipsedEclispe: 2
+
+- type: reaction
+  id: ECHOSpaceBush
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    SpaceUp:
+      amount: 1
+    SpaceMountainWind:
+      amount: 1
+    Mojito:
+      amount: 4
+  products:
+    ECHOSpaceBush: 6
+
+- type: reaction
+  id: ECHOBusinessConversation
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    CubaLibre:
+      amount: 3
+    Vodka:
+      amount: 1
+    Gin:
+      amount: 1
+    Bicaridine:
+      amount: 1
+  products:
+    ECHOBusinessConversation: 6
+
+
+- type: reaction
+  id: ECHOAppleMartini
+  reactants:
+    ECHOAppleLiqueur:
+      amount: 3
+    Vermouth:
+      amount: 2
+    Gin:
+      amount: 1
+  products:
+    ECHOAppleMartini: 6
+
+- type: reaction
+  id: ECHOBacardiApple
+  reactants:
+    ECHOAppleLiqueur:
+      amount: 1
+    Rum:
+      amount: 1
+    Ice:
+      amount: 1
+  products:
+    ECHOBacardiApple: 3
+
+#охохо, сейчас такое будет.
+- type: reaction
+  id: ECHOElderGuards
+  reactants:
+    Vodka:
+      amount: 2
+    ECHOCitrusBalance:
+      amount: 2
+    Rum:
+      amount: 1
+    Grenadine:
+      amount: 1
+    Vinegar:
+      amount: 1
+    Wine:
+      amount: 1
+    Gin:
+      amount: 1
+    Whiskey:
+      amount: 1
+  products:
+    ECHOElderGuards: 10 #polar bear heater. типо напиток из фильма, который по факту был придуман как шутка.
+
+- type: reaction
+  id: ECHOLimeShade
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    JuiceLime:
+      amount: 1
+    ShadekinBlood:
+      amount: 1
+    Wine:
+      amount: 2
+    CoffeeLiqueur:
+      amount: 1
+  products:
+    ECHOLimeShade: 5
+
+- type: reaction
+  id: ECHOOrangeteaReaction
+  minTemp: 370
+  reactants:
+    ECHOOrangepackReg:
+      amount: 5
+    Water:
+      amount: 25
+  products:
+    ECHOOrangeTeaReg: 30
+
+- type: reaction
+  id: ECHOCherryteaReaction
+  minTemp: 370
+  reactants:
+    ECHOCherrypackReg:
+      amount: 5
+    Water:
+      amount: 25
+  products:
+    ECHOCherryTeaReg: 30
+
+- type: reaction
+  id: ECHOWatermelonteaReaction
+  minTemp: 370
+  reactants:
+    ECHOWatermelonpackReg:
+      amount: 5
+    Water:
+      amount: 25
+  products:
+    ECHOWatermelonTeaReg: 30
+
+- type: reaction
+  id: ECHOTeqilaOldFashion
+  reactants:
+    Tequila:
+      amount: 7
+    Campari:
+      amount: 1
+    Water:
+      amount: 1
+    Sugar:
+      amount: 1
+  products:
+    ECHOTeqilaOldFashion: 10
+
+- type: reaction
+  id: ECHOJackieWelles
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    Vodka:
+      amount: 1
+    Ice:
+      amount: 1
+    JuiceLime:
+      amount: 1
+    RootBeer:
+      amount: 1
+  products:
+    ECHOJackieWelles: 4
+
+- type: reaction
+  id: ECHOTheSilverhand
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    ECHOTeqilaOldFashion:
+      amount: 1
+    Beer:
+      amount: 1
+    Hotsauce:
+      amount: 1
+  products:
+    ECHOTheSilverhand: 3
+
+- type: reaction
+  id: Singulo
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    Vodka:
+      amount: 5
+    Wine:
+      amount: 5
+    ECHOLiquidDarkMatter:
+      amount: 5
+  products:
+     Singulo: 15
+# here because this recipe have an new reagent from ECHO
+
+- type: reaction
+  id: ECHOCondensedMilk
+  minTemp: 340
+  impact: Low
+  quantized: true
+  reactants:
+    Milk:
+      amount: 2
+    Sugar:
+      amount: 1
+    Cream:
+      amount: 1
+  products:
+    ECHOCondensedMilk: 4
+
+- type: reaction
+  id: ECHOCoffeeBonBon
+  reactants:
+    ECHOCondensedMilk:
+      amount: 1
+    Coffee:
+      amount: 2
+  products:
+    ECHOCoffeeBonBon: 3
+
+- type: reaction
+  id: ECHOCoffeCooking
+  minTemp: 373
+  reactants:
+    ECHOCoffeePowder:
+      amount: 1
+    Water:
+      amount: 2
+  products:
+    Coffee: 3
+
+- type: reaction
+  id: ECHOYupiReactionApple
+  reactants:
+    ECHOYupiDryApple:
+      amount: 1
+    Water:
+      amount: 5
+  products:
+    ECHOYupiApple: 6
+
+- type: reaction
+  id: ECHOYupiReactionBerries
+  reactants:
+    ECHOYupiDryBerries:
+      amount: 1
+    Water:
+      amount: 5
+  products:
+    ECHOYupiBerries: 6
+
+- type: reaction
+  id: ECHOYupiReactionCherry
+  reactants:
+    ECHOYupiDryCherry:
+      amount: 1
+    Water:
+      amount: 5
+  products:
+    ECHOYupiCherry: 6
+
+- type: reaction
+  id: ECHOYupiReactionMango
+  reactants:
+    ECHOYupiDryMango:
+      amount: 1
+    Water:
+      amount: 5
+  products:
+    ECHOYupiMango: 6
+
+- type: reaction
+  id: ECHOYupiReactionOrange
+  reactants:
+    ECHOYupiDryOrange:
+      amount: 1
+    Water:
+      amount: 5
+  products:
+    ECHOYupiOrange: 6
+
+- type: reaction
+  id: ECHOYupiReactionPeach
+  reactants:
+    ECHOYupiDryPeach:
+      amount: 1
+    Water:
+      amount: 5
+  products:
+    ECHOYupiPeach: 6
+
+- type: reaction
+  id: ECHOYupiReactionPineapple
+  reactants:
+    ECHOYupiDryPineapple:
+      amount: 1
+    Water:
+      amount: 5
+  products:
+    ECHOYupiPineapple: 6
+
+- type: reaction
+  id: ECHOYupiReactionRaspberry
+  reactants:
+    ECHOYupiDryRaspberry:
+      amount: 1
+    Water:
+      amount: 5
+  products:
+    ECHOYupiRaspberry: 6
+
+- type: reaction
+  id: ECHOYupiReactionStrawberry
+  reactants:
+    ECHOYupiDryStrawberry:
+      amount: 1
+    Water:
+      amount: 5
+  products:
+    ECHOYupiStrawberry: 6
+
+- type: reaction
+  id: ECHOYupiReactionWatermelon
+  reactants:
+    ECHOYupiDryWatermelon:
+      amount: 1
+    Water:
+      amount: 5
+  products:
+    ECHOYupiWatermelon: 6

@@ -1,0 +1,19 @@
+- type: entity
+  id: ECHOBookECHOCoctailsRecipe
+  parent: BaseItem
+  name: new coctails note
+  description: Red note with a recipes of new cocktails. Writen by R.S.
+  components:
+  - type: Sprite
+    sprite: _ECHO/Objects/Misc/books.rsi
+    layers:
+    - state: new-cocktail-book
+  - type: Tag
+    tags:
+    - Book
+  - type: GuideHelp
+    openOnActivation: true
+    guides:
+    - ECHONewCocktails
+  - type: StaticPrice
+    price: 2

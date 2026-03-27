@@ -1,0 +1,444 @@
+- type: flavor
+  id: echoconsideredmilk
+  flavorType: Complex
+  description: flavor-complex-echoconsideredmilk
+
+- type: flavor
+  id: echo_summershade
+  flavorType: Complex
+  description: flavor-complex-summershade
+
+- type: flavor
+  id: echo_wintersun
+  flavorType: Complex
+  description: flavor-complex-wintersun
+
+- type: flavor
+  id: echo_hungoverangel
+  flavorType: Complex
+  description: flavor-complex-hungoverangel
+
+- type: flavor
+  id: echo_citrusbalance
+  flavorType: Complex
+  description: flavor-complex-citrusbalance
+
+- type: flavor
+  id: echo_dobtyidrink
+  flavorType: Complex
+  description: flavor-complex-dobtyidrink
+
+- type: flavor
+  id: echo_milkeclipse
+  flavorType: Complex
+  description: flavor-complex-milkeclipse
+
+- type: flavor
+  id: echo_arcticexlposion
+  flavorType: Complex
+  description: flavor-complex-arcticexlposion
+
+#Алкоголь базовый
+
+- type: flavor
+  id: echo_appleliqueur
+  flavorType: Complex
+  description: flavor-complex-appleliqueur
+
+#Алкогольные коктейли
+
+- type: flavor
+  id: echo_sugarknight
+  flavorType: Complex
+  description: flavor-complex-sugarknight
+
+- type: flavor
+  id: echo_grapelady
+  flavorType: Complex
+  description: flavor-complex-grapelady
+
+- type: flavor
+  id: echo_saturdaybaron
+  flavorType: Complex
+  description: flavor-complex-saturdaybaron
+
+- type: flavor
+  id: echo_arcticlatte
+  flavorType: Complex
+  description: flavor-complex-arcticlatte
+
+- type: flavor
+  id: echo_oolongtea
+  flavorType: Complex
+  description: flavor-complex-oolongtea
+
+- type: flavor
+  id: echo_azureblue
+  flavorType: Complex
+  description: flavor-complex-azureblue
+
+- type: flavor
+  id: echo_penetrationdrink
+  flavorType: Complex
+  description: flavor-complex-penetrationdrink
+
+- type: flavor
+  id: echo_eclipsedeclipse
+  flavorType: Complex
+  description: flavor-complex-eclipsedeclipse
+
+- type: flavor
+  id: echo_spacebush
+  flavorType: Complex
+  description: flavor-complex-spacebush
+
+- type: flavor
+  id: echo_businessconversation
+  flavorType: Complex
+  description: flavor-complex-businessconversation
+
+- type: flavor
+  id: echo_applemartini
+  flavorType: Complex
+  description: flavor-complex-applemartini
+
+- type: flavor
+  id: echo_bacardiapple
+  flavorType: Complex
+  description: flavor-complex-bacardiapple
+
+- type: flavor
+  id: echo_elderguards
+  flavorType: Complex
+  description: flavor-complex-elderguards
+
+- type: flavor
+  id: echo_limeshade
+  flavorType: Complex
+  description: flavor-complex-limeshade
+
+# Суп
+- type: flavor
+  id: ECHOSawdust
+  flavorType: Complex
+  description: flavor-complex-ECHOSawdust
+
+- type: flavor
+  id: ECHORelax
+  flavorType: Complex
+  description: flavor-complex-echorelaxing
+
+- type: flavor
+  id: ECHOSindiPizza
+  flavorType: base
+  description: flavor-base-echosindipizza
+
+- type: flavor
+  id: ECHOteqilaoldfashion
+  flavorType: Base
+  description: flavor-complex-ECHOteqilaoldfashion
+
+- type: flavor
+  id: ECHOjackiewelles
+  flavorType: Base
+  description: flavor-complex-ECHOjackiewelles
+
+- type: flavor
+  id: ECHOsilverhand
+  flavorType: Base
+  description: flavor-complex-ECHOsilverhand
+
+- type: flavor
+  id: ECHOCoffeeBonBon
+  flavorType: Complex
+  description: flavor-complex-ECHOCoffeeBonBon
+
+- type: flavor
+  id: ECHOBolognesePasta
+  flavorType: base
+  description: flavor-base-ECHObolognesepasta
+
+- type: flavor
+  id: ECHOCarpPasta
+  flavorType: base
+  description: flavor-base-echocarppasta
+
+- type: flavor
+  id: ECHOCheesePasta
+  flavorType: base
+  description: flavor-base-echocheesepasta
+
+- type: flavor
+  id: ECHOCheeseMeatballPasta
+  flavorType: base
+  description: flavor-base-echocheesemeatballpasta
+
+- type: flavor
+  id: ECHOCheeseTomatoPasta
+  flavorType: base
+  description: flavor-base-echocheesetomatopasta
+
+- type: flavor
+  id: ECHOClothPasta
+  flavorType: base
+  description: flavor-base-echoclothpasta
+
+- type: flavor
+  id: ECHOCreamPasta
+  flavorType: base
+  description: flavor-base-echocreampasta
+
+- type: flavor
+  id: ECHOCreamMeatballPasta
+  flavorType: base
+  description: flavor-base-echocreammeatballpasta
+
+- type: flavor
+  id: ECHOInkPasta
+  flavorType: base
+  description: flavor-base-echoinkpasta
+
+- type: flavor
+  id: ECHOInkFishPasta
+  flavorType: base
+  description: flavor-base-echofishpasta
+
+- type: flavor
+  id: ECHOMushroomPasta
+  flavorType: base
+  description: flavor-base-echomushroompasta
+
+- type: flavor
+  id: ECHOSalmoPasta
+  flavorType: base
+  description: flavor-base-echosalmonpasta
+
+- type: flavor
+  id: ECHOTomatoMeatballPasta
+  flavorType: base
+  description: flavor-base-echotomatomeatballpasta
+
+- type: flavor
+  id: ECHOStrawberryFlavor
+  flavorType: base
+  description: flavor-base-echostrawberryflavor
+
+- type: flavor
+  id: ECHOOrangeTeaReg
+  flavorType: complex
+  description: flavor-complex-echoorangeteareg
+
+- type: flavor
+  id: ECHOCherryTeaReg
+  flavorType: complex
+  description: flavor-complex-echocherryteareg
+
+- type: flavor
+  id: ECHOWatermelonTeaReg
+  flavorType: complex
+  description: flavor-complex-echowatermelonteareg
+
+- type: flavor
+  id: ECHOGummySlime
+  flavorType: complex
+  description: flavor-complex-echogummyslime
+
+- type: flavor
+  id: ECHOGummyArachnid
+  flavorType: complex
+  description: flavor-complex-echogummyarachnid
+
+- type: flavor
+  id: ECHOGummyArkana
+  flavorType: complex
+  description: flavor-complex-echogummyarkana
+
+- type: flavor
+  id: ECHOGummyCischi
+  flavorType: complex
+  description: flavor-complex-echogummycischi
+
+- type: flavor
+  id: ECHOGummyDrask
+  flavorType: complex
+  description: flavor-complex-echogummydrask
+
+- type: flavor
+  id: ECHOGummyFelinid
+  flavorType: complex
+  description: flavor-complex-echogummyfelinid
+
+- type: flavor
+  id: ECHOGummyHuman
+  flavorType: complex
+  description: flavor-complex-echogummyhuman
+
+- type: flavor
+  id: ECHOGummyIPC
+  flavorType: complex
+  description: flavor-complex-echogummyipc
+
+- type: flavor
+  id: ECHOGummyKidan
+  flavorType: complex
+  description: flavor-complex-echogummykidan
+
+- type: flavor
+  id: ECHOGummyMoth
+  flavorType: complex
+  description: flavor-complex-echogummymoth
+
+- type: flavor
+  id: ECHOGummyMurine
+  flavorType: complex
+  description: flavor-complex-echogummymurine
+
+- type: flavor
+  id: ECHOGummyNovakid
+  flavorType: complex
+  description: flavor-complex-echogummynovakid
+
+- type: flavor
+  id: ECHOGummyResomi
+  flavorType: complex
+  description: flavor-complex-echogummyresomi
+
+- type: flavor
+  id: ECHOGummySareng
+  flavorType: complex
+  description: flavor-complex-echogummysareng
+
+- type: flavor
+  id: ECHOGummyShadekin
+  flavorType: complex
+  description: flavor-complex-echogummyshadekin
+
+- type: flavor
+  id: ECHOGummyTayaran
+  flavorType: complex
+  description: flavor-complex-echogummytayaran
+
+- type: flavor
+  id: ECHOGummyUnath
+  flavorType: complex
+  description: flavor-complex-echogummyunath
+
+- type: flavor
+  id: ECHOGummyUrsus
+  flavorType: complex
+  description: flavor-complex-echogummyursus
+
+- type: flavor
+  id: ECHOGummyVox
+  flavorType: complex
+  description: flavor-complex-echogummyvox
+
+- type: flavor
+  id: ECHOGummyVulpkanin
+  flavorType: complex
+  description: flavor-complex-echogummyvulpkanin
+
+- type: flavor
+  id: ECHOGummySlimeGolden
+  flavorType: complex
+  description: flavor-complex-echogummyslimegolden
+
+- type: flavor
+  id: ECHOYupiDryApple
+  flavorType: complex
+  description: flavor-complex-echoyupidryapple
+
+- type: flavor
+  id: ECHOYupiDryBerries
+  flavorType: complex
+  description: flavor-complex-echoyupidryberries
+
+- type: flavor
+  id: ECHOYupiDryCherry
+  flavorType: complex
+  description: flavor-complex-echoyupidrycherry
+
+- type: flavor
+  id: ECHOYupiDryMango
+  flavorType: complex
+  description: flavor-complex-echoyupidrymango
+
+- type: flavor
+  id: ECHOYupiDryOrange
+  flavorType: complex
+  description: flavor-complex-echoyupidryorange
+
+- type: flavor
+  id: ECHOYupiDryPeach
+  flavorType: complex
+  description: flavor-complex-echoyupidrypeach
+
+- type: flavor
+  id: ECHOYupiDryPineapple
+  flavorType: complex
+  description: flavor-complex-echoyupidrypineapple
+
+- type: flavor
+  id: ECHOYupiDryRaspberry
+  flavorType: complex
+  description: flavor-complex-echoyupidryraspberry
+
+- type: flavor
+  id: ECHOYupiDryStrawberry
+  flavorType: complex
+  description: flavor-complex-echoyupidrystrawberry
+
+- type: flavor
+  id: ECHOYupiDryWatermelon
+  flavorType: complex
+  description: flavor-complex-echoyupidrywatermelon
+
+- type: flavor
+  id: ECHOYupiApple
+  flavorType: complex
+  description: flavor-complex-echoyupiapple
+
+- type: flavor
+  id: ECHOYupiBerries
+  flavorType: complex
+  description: flavor-complex-echoyupiberries
+
+- type: flavor
+  id: ECHOYupiCherry
+  flavorType: complex
+  description: flavor-complex-echoyupicherry
+
+- type: flavor
+  id: ECHOYupiMango
+  flavorType: complex
+  description: flavor-complex-echoyupimango
+
+- type: flavor
+  id: ECHOYupiOrange
+  flavorType: complex
+  description: flavor-complex-echoyupiorange
+
+- type: flavor
+  id: ECHOYupiPeach
+  flavorType: complex
+  description: flavor-complex-echoyupipeach
+
+- type: flavor
+  id: ECHOYupiPineapple
+  flavorType: complex
+  description: flavor-complex-echoyupipineapple
+
+- type: flavor
+  id: ECHOYupiRaspberry
+  flavorType: complex
+  description: flavor-complex-echoyupiraspberry
+
+- type: flavor
+  id: ECHOYupiStrawberry
+  flavorType: complex
+  description: flavor-complex-echoyupistrawberry
+
+- type: flavor
+  id: ECHOYupiWatermelon
+  flavorType: complex
+  description: flavor-complex-echoyupiwatermelon
