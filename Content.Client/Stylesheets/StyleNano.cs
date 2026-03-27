@@ -25,14 +25,24 @@ namespace Content.Client.Stylesheets
         {
             var ds = display ? "Display" : "";
             var sv = variation.StartsWith("Bold", StringComparison.Ordinal) ? "Bold" : "Regular";
+
+            // ECHO-Tweak: нет нужного варианта
+            if (variation.StartsWith("BoldItalic"))
+                variation = "Regular";
+
             return resCache.GetFont
             (
                 // Ew, but ok
                 new[]
                 {
-                    $"/Fonts/NotoSans{ds}/NotoSans{ds}-{variation}.ttf",
+                    // ECHO-Tweak: замена шрифтов
+                    $"/Fonts/RobotoMono/RobotoMono-{variation}.ttf",
+                    "/Fonts/RobotoMono/RobotoMono-Regular.ttf",
+
+                    /* $"/Fonts/NotoSans{ds}/NotoSans{ds}-{variation}.ttf",
                     $"/Fonts/NotoSans/NotoSansSymbols-{sv}.ttf",
                     "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf"
+                    */
                 },
                 size
             );
