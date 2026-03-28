@@ -2,12 +2,30 @@
     xmlns="https://spacestation14.io"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:ui="clr-namespace:Content.Client.ContextMenu.UI"
+    xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
     MinHeight="{x:Static ui:ContextMenuElement.ElementHeight}">
+    <!-- ECHO-Tweak: чёрная панель чтобы перекрыть кнопку -->
+    <PanelContainer HorizontalExpand="True" VerticalExpand="True">
+        <PanelContainer.PanelOverride>
+            <graphics:StyleBoxFlat BackgroundColor="#000000" />
+        </PanelContainer.PanelOverride>
+    </PanelContainer>
     <BoxContainer Orientation="Horizontal">
+        <!-- ECHO-Tweak: символ, используемый вместо цвета кнопки -->
+        <Label
+            Name="HoverLabel"
+            Text=">"
+            VerticalAlignment="Center"
+            StyleClasses="ConsoleHeading"
+            Margin="4 0"
+            Align="Center"/>
+
+        <!-- ECHO-Tweak: Скрыта иконка... Может быть откатим -->
         <SpriteView
             Name="Icon"
             SetWidth="{x:Static ui:ContextMenuElement.ElementHeight}"
             SetHeight="{x:Static ui:ContextMenuElement.ElementHeight}"
+            Visible="False"
             OverrideDirection="South">
             <Label
                 Name="IconLabel"

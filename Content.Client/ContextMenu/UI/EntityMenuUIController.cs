@@ -312,7 +312,11 @@ namespace Content.Client.ContextMenu.UI
 
             // remove the element
             var parent = element.ParentMenu?.ParentElement;
-            element.Dispose();
+
+            // ECHO-Tweak: доп проверка чтобы не роняло локалку
+            if (!element.Disposed)
+                element.Dispose();
+
             Elements.Remove(entity);
 
             // update any parent elements
