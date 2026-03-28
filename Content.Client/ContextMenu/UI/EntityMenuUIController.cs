@@ -314,8 +314,7 @@ namespace Content.Client.ContextMenu.UI
             var parent = element.ParentMenu?.ParentElement;
 
             // ECHO-Tweak: доп проверка чтобы не роняло локалку
-            if (!element.Disposed)
-                element.Dispose();
+            element.Orphan();
 
             Elements.Remove(entity);
 
