@@ -291,6 +291,8 @@ namespace Content.Client.ContextMenu.UI
         private void AddEntityToMenu(EntityUid entity, ContextMenuPopup menu)
         {
             var element = new EntityMenuElement(entity);
+
+            element.Icon.Visible = _cfg.GetCVar(EchoCCVars.EntityMenuIcons);    // ECHO-Tweak: скрытые иконки
             element.SubMenu = new ContextMenuPopup(_context, element);
             element.SubMenu.OnPopupOpen += () => _verb.OpenVerbMenu(entity, popup: element.SubMenu);
             element.SubMenu.OnPopupHide += element.SubMenu.MenuBody.RemoveAllChildren;

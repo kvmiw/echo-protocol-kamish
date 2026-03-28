@@ -15,17 +15,18 @@
         <Label
             Name="HoverLabel"
             Text=">"
+            Access="Public"
             VerticalAlignment="Center"
             StyleClasses="ConsoleHeading"
             Margin="4 0"
             Align="Center"/>
 
-        <!-- ECHO-Tweak: Скрыта иконка... Может быть откатим -->
+        <!-- ECHO-Tweak: публичный доступ -->
         <SpriteView
             Name="Icon"
+            Access="Public"
             SetWidth="{x:Static ui:ContextMenuElement.ElementHeight}"
             SetHeight="{x:Static ui:ContextMenuElement.ElementHeight}"
-            Visible="False"
             OverrideDirection="South">
             <Label
                 Name="IconLabel"
