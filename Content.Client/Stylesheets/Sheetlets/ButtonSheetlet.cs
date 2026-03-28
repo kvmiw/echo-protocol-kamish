@@ -68,7 +68,7 @@ public sealed class ButtonSheetlet<T> : Sheetlet<T> where T : PalettedStylesheet
                 // ReSharper disable once AccessToStaticMemberViaDerivedType
                 .Class(Button.StyleClassButton)
                 .AlignMode(Label.AlignMode.Center)
-                .Font(ResCache.GetFont("/Fonts/RobotoMono/RobotoMono-Regular.ttf", size: 12)),  // ECHO-Tweak: замена шрифтов
+                .Font(ResCacheExtension.NotoStack(ResCache, size: 12)),  // ECHO-Tweak: замена шрифтов
 
             // Have disabled button's text be faded
             CButton().PseudoDisabled().ParentOf(E<Label>()).FontColor(Color.FromHex("#E5E5E581")),

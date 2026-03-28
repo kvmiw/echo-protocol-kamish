@@ -24,14 +24,14 @@ public sealed class LabelSheetlet : Sheetlet<PalettedStylesheet>
             E<Label>()
                 .Class(StyleClass.LabelHeading)
                 .FontColor(sheet.HighlightPalette.Text)
-                .Prop(Label.StylePropertyFont, ResCache.GetFont("/Fonts/RobotoMono/RobotoMono-Bold.ttf", size: 16)),
+                .Prop(Label.StylePropertyFont, ResCacheExtension.NotoStack(ResCache, "Bold", size: 16)),
             E<Label>()
                 .Class(StyleClass.LabelHeadingBigger)
                 .FontColor(sheet.HighlightPalette.Text)
-                .Prop(Label.StylePropertyFont, ResCache.GetFont("/Fonts/RobotoMono/RobotoMono-Bold.ttf", size: 20)),
+                .Prop(Label.StylePropertyFont, ResCacheExtension.NotoStack(ResCache, "Bold", size: 20)),
             E<Label>()
                 .Class(StyleClass.LabelSubText)
-                .Font(ResCache.GetFont("/Fonts/RobotoMono/RobotoMono-Regular.ttf", size: 10))
+                .Font(ResCacheExtension.NotoStack(ResCache, size: 10))
                 .FontColor(Color.DarkGray),
             E<Label>()
                 .Class(StyleClass.LabelKeyText)
