@@ -1,4 +1,4 @@
-flavor-complex-echoconsideredmilk = как сгущенка
+flavor-complex-ECHOconsideredmilk = как сгущенка
 
 flavor-complex-summershade = как прохлада, тень и арбузы
 flavor-complex-wintersun = как молоко с кофе

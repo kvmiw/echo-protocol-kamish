@@ -1,12 +1,12 @@
 #Коктейли от Кекса/Стычинского
 
 - type: reagent
-  id: EchoSummerShade
+  id: ECHOSummerShade
   name: summer-shade-name
   parent: BaseDrink
   desc: summer-shade-desc
   physicalDesc: reagent-physical-desc-refreshing
-  flavor: echo_summershade
+  flavor: ECHO_summershade
   color: "#FF2B2B"
   recognizable: false
   metabolisms:
@@ -20,19 +20,19 @@
           min: 290 #дает легкую прохладу
         amount: -2500
   metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/summershade.rsi
+    sprite: ECHO/Objects/Consumable/Drinks/summershade.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
 
 - type: reagent
-  id: EchoWinterSun
+  id: ECHOWinterSun
   name: winter-sun-name
   parent: ECHOSummerShade
   desc: winter-sun-desc
   physicalDesc: reagent-physical-desc-milky
-  flavor: echo_wintersun
+  flavor: ECHO_wintersun
   color: "#edccab"
   recognizable: false
   metabolisms:
@@ -43,22 +43,22 @@
       - !type:AdjustTemperature
         conditions:
         - !type:Temperature
-          max: 320 #слегка согревает
+          min: 320 #слегка согревает
         amount: 2500
   metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/wintersun.rsi
+    sprite: ECHO/Objects/Consumable/Drinks/wintersun.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
 
 - type: reagent
-  id: EchoHungoverAngel
+  id: ECHOHungoverAngel
   name: hungover-angel-name
   parent: ECHOSummerShade
   desc: hungover-angel-desc
   physicalDesc: reagent-physical-desc-exhilarating
-  flavor: echo_hungoverangel
+  flavor: ECHO_hungoverangel
   color: "#FBEC5D"
   recognizable: false
   metabolisms:
@@ -82,19 +82,19 @@
         time: 2.0
         type: Remove
   metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/hungoverangel.rsi
+    sprite: ECHO/Objects/Consumable/Drinks/hungoverangel.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
 
 - type: reagent
-  id: EchoCitrusBalance
+  id: ECHOCitrusBalance
   name: citrus-balance-name
   parent: ECHOSummerShade
   desc: citrus-balance-desc
   physicalDesc: reagent-physical-desc-citric
-  flavor: echo_citrusbalance
+  flavor: ECHO_citrusbalance
   color: "#F8D568"
   recognizable: false
   metabolisms:
@@ -103,19 +103,19 @@
       - !type:SatiateThirst
         factor: 3
   metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/citrucbalance.rsi
+    sprite: ECHO/Objects/Consumable/Drinks/citrucbalance.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
 
 - type: reagent
-  id: EchoDobryiDrink
+  id: ECHODobryiDrink
   name: dobryi-drink-name
   parent: ECHOSummerShade
   desc: dobryi-drink-desc
   physicalDesc: reagent-physical-desc-sour
-  flavor: echo_dobtyidrink
+  flavor: ECHO_dobtyidrink
   color: "#955F20"
   recognizable: false
   metabolisms:
@@ -124,19 +124,19 @@
       - !type:SatiateThirst
         factor: 2
   metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/dobryi.rsi
+    sprite: ECHO/Objects/Consumable/Drinks/dobryi.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
 
 - type: reagent
-  id: EchoMilkEclipse
+  id: ECHOMilkEclipse
   name: milk-eclipse-name
   parent: ECHOSummerShade
   desc: milk-eclipse-desc
   physicalDesc: reagent-physical-desc-refreshing
-  flavor: echo_milkeclipse
+  flavor: ECHO_milkeclipse
   color: "#D8DEBA"
   recognizable: false
   metabolisms:
@@ -150,19 +150,19 @@
           min: 290 #дает легкую прохладу
         amount: -2500
   metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/milkeclipse.rsi
+    sprite: ECHO/Objects/Consumable/Drinks/milkeclipse.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
 
 - type: reagent
-  id: EchoArcticExplosion
+  id: ECHOArcticExplosion
   name: arctic-explosion-name
   parent: ECHOSummerShade
   desc: arctic-explosion-desc
   physicalDesc: reagent-physical-desc-refreshing
-  flavor: echo_arcticexlposion
+  flavor: ECHO_arcticexlposion
   color: "#c5e3e2"
   recognizable: false
   metabolisms:
@@ -176,376 +176,8 @@
           min: 285 #дает среднюю прохладу
         amount: -2500
   metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/arcticexplosion.rsi
+    sprite: ECHO/Objects/Consumable/Drinks/arcticexplosion.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-
-- type: reagent
-  id: EchoOrangeTeaReg
-  name: reagent-name-orangetea
-  parent: BaseDrink
-  desc: reagent-desc-orangetea
-  physicalDesc: reagent-physical-desc-orangetea
-  flavor: ECHOOrangeTeaReg
-  color: "#FF8C00"
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 0.6
-  metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/sh4ziktea/orangetea.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-
-- type: reagent
-  id: EchoCherryTeaReg
-  name: reagent-name-cherrytea
-  parent: BaseDrink
-  desc: reagent-desc-cherrytea
-  physicalDesc: reagent-physical-desc-cherrytea
-  flavor: ECHOCherryTeaReg
-  color: "#FFB6C1"
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 0.6
-  metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/sh4ziktea/cherrytea.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-
-- type: reagent
-  id: EchoWatermelonTeaReg
-  name: reagent-name-watermelontea
-  parent: BaseDrink
-  desc: reagent-desc-watermelontea
-  physicalDesc: reagent-physical-desc-watermelontea
-  flavor: ECHOWatermelonTeaReg
-  color: "#F08080"
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 0.6
-  metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/sh4ziktea/watermelontea.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-
-- type: reagent
-  id: EchoOrangepackReg
-  name: reagent-name-orangepack
-  parent: BaseDrink
-  desc: reagent-desc-orangepack
-  physicalDesc: reagent-physical-desc-orangepack
-  flavor: sweet
-  color: "#FF8C00"
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 0.1
-
-- type: reagent
-  id: EchoCherrypackReg
-  name: reagent-name-cherrypack
-  parent: BaseDrink
-  desc: reagent-desc-cherrypack
-  physicalDesc: reagent-physical-desc-cherrypack
-  flavor: sweet
-  color: "#FFB6C1"
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 0.1
-
-- type: reagent
-  id: EchoWatermelonpackReg
-  name: reagent-name-watermelonpack
-  parent: BaseDrink
-  desc: reagent-desc-watermelonpack
-  physicalDesc: reagent-physical-desc-watermelonpack
-  flavor: sweet
-  color: "#F08080"
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 0.1
-
-- type: reagent
-  id: EchoCoffeeBonBon
-  name: coffee-bon-bon-name
-  parent: BaseAlcohol
-  desc: coffee-bon-bon-desc
-  physicalDesc: reagent-physical-desc-coffeebonbon
-  flavor: ECHOCoffeeBonBon
-  color: "#5f341c"
-  metamorphicSprite:
-    sprite: _ECHO/Objects/Consumable/Drinks/cocoa_drink.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:GenericStatusEffect
-        key: StaminaModifier
-        component: StaminaModifier
-        time: 1.15
-        type: Add
-      - !type:MovespeedModifier
-        walkSpeedModifier: 1.03
-        sprintSpeedModifier: 1.05
-      - !type:AdjustTemperature
-        conditions:
-        - !type:Temperature
-          max: 310
-        amount: 2500
-
-- type: reagent
-  id: EchoCoffeePowder
-  name: reagent-name-coffeepowder
-  parent: BaseDrink
-  desc: reagent-desc-coffeepowder
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: coffee
-  color: "#3d2200"
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:GenericStatusEffect
-        key: Drowsiness
-        time: 2.0
-        type: Remove
-      - !type:AdjustReagent
-        reagent: Theobromine
-        amount: 0.05
-      - !type:ChemVomit
-        probability: 0.04
-        conditions:
-        - !type:ReagentThreshold
-          min: 10
-      - !type:PopupMessage
-        conditions:
-        - !type:ReagentThreshold
-          min: 5
-        type: Local
-        visualType: Medium
-        messages: [ "generic-reagent-effect-disgusting" ]
-        probability: 0.3
-
-- type: reagent
-  id: EchoJuiceStrawberry
-  name: reagent-name-strawberryjuice
-  parent: BaseDrink
-  desc: reagent-desc-strawberryjuice
-  physicalDesc: reagent-physical-desc-strawberryjuice
-  flavor: ECHOStrawberryFlavor
-  color: "#cf554c"
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 0.1
-
-- type: reagent
-  id: EchoYupiDryApple
-  slipData:
-    requiredSlipSpeed: 3.5
-  name: reagent-name-yupidryapple
-  parent: BaseDrink
-  desc: reagent-desc-yupidryapple
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: ECHOYupiDryApple
-  color: "#e7191e"
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: -3
-  recognizable: true
-
-- type: reagent
-  id: EchoYupiDryBerries
-  name: reagent-name-yupidryberries
-  parent: ECHOYupiDryApple
-  desc: reagent-desc-yupidryberries
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: ECHOYupiDryBerries
-  color: "#600a72"
-
-- type: reagent
-  id: EchoYupiDryCherry
-  name: reagent-name-yupidrycherry
-  parent: ECHOYupiDryApple
-  desc: reagent-desc-yupidrycherry
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: ECHOYupiDryCherry
-  color: "#a92337"
-
-- type: reagent
-  id: EchoYupiDryMango
-  name: reagent-name-yupidrymango
-  parent: ECHOYupiDryApple
-  desc: reagent-desc-yupidrymango
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: ECHOYupiDryMango
-  color: "#ffc736"
-
-- type: reagent
-  id: EchoYupiDryOrange
-  name: reagent-name-yupidryorange
-  parent: ECHOYupiDryApple
-  desc: reagent-desc-yupidryorange
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: ECHOYupiDryOrange
-  color: "#ffa600"
-
-- type: reagent
-  id: EchoYupiDryPeach
-  name: reagent-name-yupidrypeach
-  parent: ECHOYupiDryApple
-  desc: reagent-desc-yupidrypeach
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: ECHOYupiDryPeach
-  color: "#fece2b"
-
-- type: reagent
-  id: EchoYupiDryPineapple
-  name: reagent-name-yupidrypineapple
-  parent: ECHOYupiDryApple
-  desc: reagent-desc-yupidrypineapple
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: ECHOYupiDryPineapple
-  color: "#ffed69"
-
-- type: reagent
-  id: EchoYupiDryRaspberry
-  name: reagent-name-yupidryraspberry
-  parent: ECHOYupiDryApple
-  desc: reagent-desc-yupidryraspberry
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: ECHOYupiDryRaspberry
-  color: "#9d2050"
-
-- type: reagent
-  id: EchoYupiDryStrawberry
-  name: reagent-name-yupidrystrawberry
-  parent: ECHOYupiDryApple
-  desc: reagent-desc-yupidrystrawberry
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: ECHOYupiDryStrawberry
-  color: "#ef302e"
-
-- type: reagent
-  id: EchoYupiDryWatermelon
-  name: reagent-name-yupidrywatermelon
-  parent: ECHOYupiDryApple
-  desc: reagent-desc-yupidrywatermelon
-  physicalDesc: reagent-physical-desc-powdery
-  flavor: ECHOYupiDryWatermelon
-  color: "#e04b4f"
-
-- type: reagent
-  id: EchoYupiApple
-  name: reagent-name-yupiapple
-  parent: BaseJuice
-  desc: reagent-desc-yupiapple
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ECHOYupiApple
-  color: "#e7191e"
-
-- type: reagent
-  id: EchoYupiBerries
-  name: reagent-name-yupiberries
-  parent: BaseJuice
-  desc: reagent-desc-yupiberries
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ECHOYupiBerries
-  color: "#600a72"
-
-- type: reagent
-  id: EchoYupiCherry
-  name: reagent-name-yupicherry
-  parent: BaseJuice
-  desc: reagent-desc-yupicherry
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ECHOYupiCherry
-  color: "#a92337"
-
-- type: reagent
-  id: EchoYupiMango
-  name: reagent-name-yupimango
-  parent: BaseJuice
-  desc: reagent-desc-yupimango
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ECHOYupiMango
-  color: "#ffc736"
-
-- type: reagent
-  id: EchoYupiOrange
-  name: reagent-name-yupiorange
-  parent: BaseJuice
-  desc: reagent-desc-yupiorange
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ECHOYupiOrange
-  color: "#ffa600"
-
-- type: reagent
-  id: EchoYupiPeach
-  name: reagent-name-yupipeach
-  parent: BaseJuice
-  desc: reagent-desc-yupipeach
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ECHOYupiPeach
-  color: "#fece2b"
-
-- type: reagent
-  id: EchoYupiPineapple
-  name: reagent-name-yupipineapple
-  parent: BaseJuice
-  desc: reagent-desc-yupipineapple
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ECHOYupiPineapple
-  color: "#ffed69"
-
-- type: reagent
-  id: EchoYupiRaspberry
-  name: reagent-name-yupiraspberry
-  parent: BaseJuice
-  desc: reagent-desc-yupiraspberry
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ECHOYupiRaspberry
-  color: "#9d2050"
-
-- type: reagent
-  id: EchoYupiStrawberry
-  name: reagent-name-yupistrawberry
-  parent: BaseJuice
-  desc: reagent-desc-yupistrawberry
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ECHOYupiStrawberry
-  color: "#ef302e"
-
-- type: reagent
-  id: EchoYupiWatermelon
-  name: reagent-name-yupiwatermelon
-  parent: BaseJuice
-  desc: reagent-desc-yupiwatermelon
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ECHOYupiWatermelon
-  color: "#e04b4f"
