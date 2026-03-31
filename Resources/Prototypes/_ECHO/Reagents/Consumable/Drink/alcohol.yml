@@ -1,48 +1,9 @@
 #Наши базовые алкогольные напитки
 
-#Антивирус и Вишневое вино ввести после допила спрайтов
-
-# - type: reagent
-#   id: ECHOVodkaAntivirus
-#   name: vodka-antivirus-name
-#   parent: Vodka
-#   desc: vodka-antivirus-desc
-#   physicalDesc: reagent-physical-desc-overpowering
-#   flavor: ECHO_vodkaantivirus
-#   color: "#d1d1d155"
-#   metabolisms:
-#     Drink:
-#       effects:
-#       - !type:SatiateThirst
-#         factor: 2
-#       - !type:AdjustReagent
-#         reagent: Ethanol
-#         amount: 0.9
-
-# - type: reagent
-#   id: ECHOCherryExquisiteWine
-#   name: cherry-exq-wine-name
-#   parent: BaseAlcohol
-#   desc: cherry-exq-wine-desc
-#   physicalDesc: reagent-physical-desc-translucent
-#   flavor: ECHOCherryExquisiteWineFlavor
-#   color: "#A33E43"
-#   metamorphicSprite:
-#     sprite: ECHO/Objects/Consumable/Drinks/cherryexquisitewineglass.rsi
-#     state: icon
-#   metabolisms:
-#     Drink:
-#       effects:
-#       - !type:SatiateThirst
-#         factor: 2
-#       - !type:AdjustReagent
-#         reagent: Ethanol
-#         amount: 0.05
-
 - type: reagent
   id: ECHOAppleLiqueur
   name: apple-liqueur-name
-  parent: ECHOSugarKnight
+  parent: BaseAlcohol
   desc: apple-liqueur-desc
   physicalDesc: reagent-physical-desc-cloudy
   flavor: ECHO_appleliqueur
@@ -55,13 +16,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.05
+    Digestion:
+      metabolites:
+        Ethanol: 0.05
 
 #Коктейли от Кекса/Стычинского и Кермита
 
@@ -80,13 +37,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.1
+    Digestion:
+      metabolites:
+        Ethanol: 0.1
 
 - type: reagent
   id: ECHOGrapeLady
@@ -103,13 +56,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.1
+    Digestion:
+      metabolites:
+        Ethanol: 0.1
 
 - type: reagent
   id: ECHOSaturdayBaron
@@ -126,13 +75,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.15
+    Digestion:
+      metabolites:
+        Ethanol: 0.15
 
 - type: reagent
   id: ECHOArcticLatte
@@ -149,18 +94,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.1
-      - !type:AdjustTemperature
-        conditions:
-        - !type:Temperature
-          min: 290 #дает легкую прохладу
-        amount: -2500
+    Digestion:
+      metabolites:
+        Ethanol: 0.1
 
 - type: reagent
   id: ECHOSpecialTeaOolong
@@ -177,13 +113,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.3
+    Digestion:
+      metabolites:
+        Ethanol: 0.3
 
 - type: reagent
   id: ECHOAzureBlue
@@ -200,13 +132,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.15
+    Digestion:
+      metabolites:
+        Ethanol: 0.15
 
 - type: reagent
   id: ECHOPenetrationDrink
@@ -223,13 +151,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.15
+    Digestion:
+      metabolites:
+        Ethanol: 0.15
 
 - type: reagent
   id: ECHOEclipsedEclispe
@@ -246,13 +170,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.6
+    Digestion:
+      metabolites:
+        Ethanol: 0.6
 
 - type: reagent
   id: ECHOSpaceBush
@@ -269,13 +189,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.15
+    Digestion:
+      metabolites:
+        Ethanol: 0.15
 
 - type: reagent
   id: ECHOBusinessConversation
@@ -292,16 +208,10 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.2
-      - !type:AdjustReagent
-        reagent: Bicaridine
-        amount: 0.2
+    Digestion:
+      metabolites:
+        Ethanol: 0.2
+        Bicaridine: 0.2
 
 - type: reagent
   id: ECHOAppleMartini
@@ -318,13 +228,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.15
+    Digestion:
+      metabolites:
+        Ethanol: 0.15
 
 - type: reagent
   id: ECHOBacardiApple
@@ -341,13 +247,9 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.15
+    Digestion:
+      metabolites:
+        Ethanol: 0.15
 
 - type: reagent
   id: ECHOElderGuards
@@ -358,16 +260,12 @@
   flavor: ECHO_elderguards
   color: "#e86717"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/elderguards.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/elderguards.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.2
+    Digestion:
+      metabolites:
+        Ethanol: 0.2

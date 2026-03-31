@@ -9,22 +9,22 @@
   flavor: ECHO_summershade
   color: "#FF2B2B"
   recognizable: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 5
-      - !type:AdjustTemperature
-        conditions:
-        - !type:Temperature
-          min: 290 #дает легкую прохладу
-        amount: -2500
   metamorphicSprite:
     sprite: _ECHO/Objects/Consumable/Drinks/summershade.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateThirst
+        factor: 5
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+          min: 290
+        amount: -2500
 
 - type: reagent
   id: ECHOWinterSun
@@ -35,22 +35,22 @@
   flavor: ECHO_wintersun
   color: "#edccab"
   recognizable: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustTemperature
-        conditions:
-        - !type:Temperature
-          min: 320 #слегка согревает
-        amount: 2500
   metamorphicSprite:
     sprite: _ECHO/Objects/Consumable/Drinks/wintersun.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+          min: 320
+        amount: 2500
 
 - type: reagent
   id: ECHOHungoverAngel
@@ -61,32 +61,27 @@
   flavor: ECHO_hungoverangel
   color: "#FBEC5D"
   recognizable: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          groups:
-            Toxin: -1
-      - !type:PopupMessage
-        type: Local
-        visualType: Small
-        messages: [ "medicine-effect-hungover" ]
-        probability: 0.04
-      - !type:GenericStatusEffect
-        key: Drunk
-        time: 2.0
-        type: Remove
   metamorphicSprite:
     sprite: _ECHO/Objects/Consumable/Drinks/hungoverangel.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+    Bloodstream:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Toxin: -1
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectDrunk
+        type: Remove
+        time: 2
 
 - type: reagent
   id: ECHOCitrusBalance
@@ -97,17 +92,17 @@
   flavor: ECHO_citrusbalance
   color: "#F8D568"
   recognizable: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
   metamorphicSprite:
     sprite: _ECHO/Objects/Consumable/Drinks/citrucbalance.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
 
 - type: reagent
   id: ECHODobryiDrink
@@ -118,17 +113,17 @@
   flavor: ECHO_dobtyidrink
   color: "#955F20"
   recognizable: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
   metamorphicSprite:
     sprite: _ECHO/Objects/Consumable/Drinks/dobryi.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
 
 - type: reagent
   id: ECHOMilkEclipse
@@ -139,22 +134,22 @@
   flavor: ECHO_milkeclipse
   color: "#D8DEBA"
   recognizable: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 4
-      - !type:AdjustTemperature
-        conditions:
-        - !type:Temperature
-          min: 290 #дает легкую прохладу
-        amount: -2500
   metamorphicSprite:
     sprite: _ECHO/Objects/Consumable/Drinks/milkeclipse.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateThirst
+        factor: 4
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+          min: 290
+        amount: -2500
 
 - type: reagent
   id: ECHOArcticExplosion
@@ -165,19 +160,19 @@
   flavor: ECHO_arcticexlposion
   color: "#c5e3e2"
   recognizable: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustTemperature
-        conditions:
-        - !type:Temperature
-          min: 285 #дает среднюю прохладу
-        amount: -2500
   metamorphicSprite:
     sprite: _ECHO/Objects/Consumable/Drinks/arcticexplosion.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+          min: 285
+        amount: -2500

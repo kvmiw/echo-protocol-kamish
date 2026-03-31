@@ -12,9 +12,10 @@
         reagents:
         - ReagentId: ECHOSummerShade
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/summershade.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/summershade.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -28,9 +29,10 @@
         reagents:
         - ReagentId: ECHOWinterSun
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/wintersun.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/wintersun.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -44,9 +46,10 @@
         reagents:
         - ReagentId: ECHOHungoverAngel
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/hungoverangel.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/hungoverangel.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -60,9 +63,10 @@
         reagents:
         - ReagentId: ECHOCitrusBalance
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/citrucbalance.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/citrucbalance.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -76,9 +80,10 @@
         reagents:
         - ReagentId: ECHODobryiDrink
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/dobryi.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/dobryi.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -92,9 +97,10 @@
         reagents:
         - ReagentId: ECHOMilkEclipse
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/milkeclipse.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/milkeclipse.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -108,9 +114,10 @@
         reagents:
         - ReagentId: ECHOArcticExplosion
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/arcticexplosion.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/arcticexplosion.rsi
+    layers:
+    - state: icon
 
 #Базовый алкоголь от ECHO
 
@@ -126,9 +133,10 @@
         reagents:
         - ReagentId: ECHOAppleLiqueur
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/apple_liqueur_glass.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/apple_liqueur_glass.rsi
+    layers:
+    - state: icon
 
 #Алкогольные коктейли от Кекса/Стычинского и Кермита
 
@@ -144,9 +152,10 @@
         reagents:
         - ReagentId: ECHOSugarKnight
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/sugarknight.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/sugarknight.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -160,9 +169,10 @@
         reagents:
         - ReagentId: ECHOGrapeLady
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/grapelady.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/grapelady.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -176,9 +186,10 @@
         reagents:
         - ReagentId: ECHOSaturdayBaron
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/saturdaybaron.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/saturdaybaron.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -192,9 +203,10 @@
         reagents:
         - ReagentId: ECHOArcticLatte
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/arcticlatte.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/arcticlatte.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -208,9 +220,10 @@
         reagents:
         - ReagentId: ECHOSpecialTeaOolong
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/teaoolong.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/teaoolong.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -224,9 +237,10 @@
         reagents:
         - ReagentId: ECHOAzureBlue
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/azureblue.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/azureblue.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -240,9 +254,10 @@
         reagents:
         - ReagentId: ECHOPenetrationDrink
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/penetration.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/penetration.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -256,9 +271,10 @@
         reagents:
         - ReagentId: ECHOEclipsedEclispe
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/eclipsedeclipse.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/eclipsedeclipse.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -272,9 +288,10 @@
         reagents:
         - ReagentId: ECHOSpaceBush
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/spacebush.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/spacebush.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -288,9 +305,10 @@
         reagents:
         - ReagentId: ECHOBusinessConversation
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/buisinessconservation.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/buisinessconservation.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -304,9 +322,10 @@
         reagents:
         - ReagentId: ECHOAppleMartini
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/applemartini.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/applemartini.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -320,9 +339,10 @@
         reagents:
         - ReagentId: ECHOBacardiApple
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/bacardiapple.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/bacardiapple.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: DrinkGlass
@@ -336,6 +356,7 @@
         reagents:
         - ReagentId: ECHOElderGuards
           Quantity: 30
-  - type: Icon
-    sprite: ECHO/Objects/Consumable/Drinks/elderguards.rsi
-    state: icon
+  - type: Sprite
+    sprite: _ECHO/Objects/Consumable/Drinks/elderguards.rsi
+    layers:
+    - state: icon
