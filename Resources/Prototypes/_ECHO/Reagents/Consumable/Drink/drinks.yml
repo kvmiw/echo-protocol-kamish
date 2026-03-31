@@ -20,7 +20,7 @@
           min: 290 #дает легкую прохладу
         amount: -2500
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/summershade.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/summershade.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -46,7 +46,7 @@
           min: 320 #слегка согревает
         amount: 2500
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/wintersun.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/wintersun.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -82,7 +82,7 @@
         time: 2.0
         type: Remove
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/hungoverangel.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/hungoverangel.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -103,7 +103,7 @@
       - !type:SatiateThirst
         factor: 3
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/citrucbalance.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/citrucbalance.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -124,7 +124,7 @@
       - !type:SatiateThirst
         factor: 2
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/dobryi.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/dobryi.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -150,7 +150,7 @@
           min: 290 #дает легкую прохладу
         amount: -2500
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/milkeclipse.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/milkeclipse.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -176,7 +176,7 @@
           min: 285 #дает среднюю прохладу
         amount: -2500
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/arcticexplosion.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/arcticexplosion.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-

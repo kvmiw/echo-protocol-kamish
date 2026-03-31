@@ -11,9 +11,8 @@
         reagents:
         - ReagentId: ECHOAppleLiqueur
           Quantity: 100
-  - type: Drink
   - type: Sprite
-    sprite: ECHO/Objects/Consumable/Drinks/apple_liqueur_bottle.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/apple_liqueur_bottle.rsi
     state: icon
   - type: Label
     currentLabel: apple-liqueur-name

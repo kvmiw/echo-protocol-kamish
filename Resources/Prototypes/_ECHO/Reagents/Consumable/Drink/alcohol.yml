@@ -49,7 +49,7 @@
   color: "#47941b"
   recognizable: true
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/apple_liqueur_glass.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/apple_liqueur_glass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -74,7 +74,7 @@
   flavor: ECHO_sugarknight
   color: "#D36E70"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/sugarknight.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/sugarknight.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -97,7 +97,7 @@
   flavor: ECHO_grapelady
   color: "#8C4852"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/grapelady.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/grapelady.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -120,7 +120,7 @@
   flavor: ECHO_saturdaybaron
   color: "#EFA94A"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/saturdaybaron.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/saturdaybaron.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -143,7 +143,7 @@
   flavor: ECHO_arcticlatte
   color: "#916631"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/arcticlatte.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/arcticlatte.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -171,7 +171,7 @@
   flavor: ECHO_oolongtea
   color: "#8c492a"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/teaoolong.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/teaoolong.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -194,7 +194,7 @@
   flavor: ECHO_azureblue
   color: "#6498e3"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/azureblue.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/azureblue.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -217,7 +217,7 @@
   flavor: ECHO_penetrationdrink
   color: "#6ddb6b"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/penetration.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/penetration.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -240,7 +240,7 @@
   flavor: ECHO_eclipsedeclipse
   color: "#592506"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/eclipsedeclipse.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/eclipsedeclipse.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -263,7 +263,7 @@
   flavor: ECHO_spacebush
   color: "#85de8e"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/spacebush.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/spacebush.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -286,7 +286,7 @@
   flavor: ECHO_businessconversation
   color: "#a8140a"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/buisinessconservation.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/buisinessconservation.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -312,7 +312,7 @@
   flavor: ECHO_applemartini
   color: "#664300"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/applemartini.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/applemartini.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -335,7 +335,7 @@
   flavor: ECHO_bacardiapple
   color: "#d4f2a7"
   metamorphicSprite:
-    sprite: ECHO/Objects/Consumable/Drinks/bacardiapple.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/bacardiapple.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
