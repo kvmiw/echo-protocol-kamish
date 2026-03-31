@@ -22,7 +22,7 @@
         factor: 5
       - !type:AdjustTemperature
         conditions:
-        - !type:Temperature
+        - !type:TemperatureCondition
           min: 290
         amount: -2500
 
@@ -48,7 +48,7 @@
         factor: 2
       - !type:AdjustTemperature
         conditions:
-        - !type:Temperature
+        - !type:TemperatureCondition
           min: 320
         amount: 2500
 
@@ -76,7 +76,7 @@
       effects:
       - !type:HealthChange
         damage:
-          groups:
+          types:
             Toxin: -1
       - !type:ModifyStatusEffect
         effectProto: StatusEffectDrunk
@@ -173,6 +173,6 @@
         factor: 3
       - !type:AdjustTemperature
         conditions:
-        - !type:Temperature
+        - !type:TemperatureCondition
           min: 285
         amount: -2500
