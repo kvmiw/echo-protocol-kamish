@@ -77,7 +77,7 @@
       - !type:HealthChange
         damage:
           types:
-            Toxin: -1
+            Poison: -1
       - !type:ModifyStatusEffect
         effectProto: StatusEffectDrunk
         type: Remove
@@ -147,7 +147,7 @@
         factor: 4
       - !type:AdjustTemperature
         conditions:
-        - !type:Temperature
+        - !type:TemperatureCondition
           min: 290
         amount: -2500
 
