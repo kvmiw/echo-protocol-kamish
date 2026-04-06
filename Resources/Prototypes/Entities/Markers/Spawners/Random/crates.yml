@@ -78,7 +78,7 @@
   id: LowValueServiceCrateTable
   table: !type:GroupSelector
     children:
-    - id: CrateServiceColorfulLights
+    - id: CrateServiceReplacementLights
     - id: CrateServiceReplacementLights
     - id: CrateServiceBureaucracy
     - id: PetCarrier
