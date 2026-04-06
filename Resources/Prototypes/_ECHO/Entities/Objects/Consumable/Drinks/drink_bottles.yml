@@ -9,7 +9,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: ECHOAppleLiqueur
+        - ReagentId: EchoAppleLiqueur
           Quantity: 100
   - type: Sprite
     sprite: _ECHO/Objects/Consumable/Drinks/apple_liqueur_bottle.rsi
