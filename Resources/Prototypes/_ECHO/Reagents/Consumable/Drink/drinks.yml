@@ -1,12 +1,12 @@
 #Коктейли от Кекса/Стычинского
 
 - type: reagent
-  id: ECHOSummerShade
+  id: EchoSummerShade
   name: summer-shade-name
   parent: BaseDrink
   desc: summer-shade-desc
   physicalDesc: reagent-physical-desc-refreshing
-  flavor: ECHO_summershade
+  flavor: Echo_summershade
   color: "#FF2B2B"
   recognizable: false
   metamorphicSprite:
@@ -27,12 +27,12 @@
         amount: -2500
 
 - type: reagent
-  id: ECHOWinterSun
+  id: EchoWinterSun
   name: winter-sun-name
-  parent: ECHOSummerShade
+  parent: EchoSummerShade
   desc: winter-sun-desc
   physicalDesc: reagent-physical-desc-milky
-  flavor: ECHO_wintersun
+  flavor: Echo_wintersun
   color: "#edccab"
   recognizable: false
   metamorphicSprite:
@@ -53,12 +53,12 @@
         amount: 2500
 
 - type: reagent
-  id: ECHOHungoverAngel
+  id: EchoHungoverAngel
   name: hungover-angel-name
-  parent: ECHOSummerShade
+  parent: EchoSummerShade
   desc: hungover-angel-desc
   physicalDesc: reagent-physical-desc-exhilarating
-  flavor: ECHO_hungoverangel
+  flavor: Echo_hungoverangel
   color: "#FBEC5D"
   recognizable: false
   metamorphicSprite:
@@ -84,12 +84,12 @@
         time: 2
 
 - type: reagent
-  id: ECHOCitrusBalance
+  id: EchoCitrusBalance
   name: citrus-balance-name
-  parent: ECHOSummerShade
+  parent: EchoSummerShade
   desc: citrus-balance-desc
   physicalDesc: reagent-physical-desc-citric
-  flavor: ECHO_citrusbalance
+  flavor: Echo_citrusbalance
   color: "#F8D568"
   recognizable: false
   metamorphicSprite:
@@ -105,12 +105,12 @@
         factor: 3
 
 - type: reagent
-  id: ECHODobryiDrink
+  id: EchoDobryiDrink
   name: dobryi-drink-name
-  parent: ECHOSummerShade
+  parent: EchoSummerShade
   desc: dobryi-drink-desc
   physicalDesc: reagent-physical-desc-sour
-  flavor: ECHO_dobtyidrink
+  flavor: Echo_dobtyidrink
   color: "#955F20"
   recognizable: false
   metamorphicSprite:
@@ -126,12 +126,12 @@
         factor: 2
 
 - type: reagent
-  id: ECHOMilkEclipse
+  id: EchoMilkEclipse
   name: milk-eclipse-name
-  parent: ECHOSummerShade
+  parent: EchoSummerShade
   desc: milk-eclipse-desc
   physicalDesc: reagent-physical-desc-refreshing
-  flavor: ECHO_milkeclipse
+  flavor: Echo_milkeclipse
   color: "#D8DEBA"
   recognizable: false
   metamorphicSprite:
@@ -152,12 +152,12 @@
         amount: -2500
 
 - type: reagent
-  id: ECHOArcticExplosion
+  id: EchoArcticExplosion
   name: arctic-explosion-name
-  parent: ECHOSummerShade
+  parent: EchoSummerShade
   desc: arctic-explosion-desc
   physicalDesc: reagent-physical-desc-refreshing
-  flavor: ECHO_arcticexlposion
+  flavor: Echo_arcticexlposion
   color: "#c5e3e2"
   recognizable: false
   metamorphicSprite:

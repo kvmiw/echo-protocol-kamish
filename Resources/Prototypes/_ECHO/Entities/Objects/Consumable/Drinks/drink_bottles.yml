@@ -1,6 +1,6 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
-  id: ECHODrinkAppleLiqueurBottleFull
+  id: EchoDrinkAppleLiqueurBottleFull
   name: apple liquer
   description: fruit, dessert alcoholic drink.
   components:

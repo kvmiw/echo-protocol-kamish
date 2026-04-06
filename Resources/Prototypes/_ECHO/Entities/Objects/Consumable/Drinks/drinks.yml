@@ -2,7 +2,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkSummerShadeGlass
+  id: EchoDrinkSummerShadeGlass
   suffix: SummerShade
   components:
   - type: SolutionContainerManager
@@ -10,7 +10,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOSummerShade
+        - ReagentId: EchoSummerShade
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/summershade.rsi
@@ -18,7 +18,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkWinterSunGlass
+  id: EchoDrinkWinterSunGlass
   suffix: WinterSun
   components:
   - type: SolutionContainerManager
@@ -26,7 +26,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOWinterSun
+        - ReagentId: EchoWinterSun
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/wintersun.rsi
@@ -34,7 +34,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkHungoverAngelGlass
+  id: EchoDrinkHungoverAngelGlass
   suffix: HungoverAngel
   components:
   - type: SolutionContainerManager
@@ -42,7 +42,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOHungoverAngel
+        - ReagentId: EchoHungoverAngel
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/hungoverangel.rsi
@@ -50,7 +50,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkCitrusBalanceGlass
+  id: EchoDrinkCitrusBalanceGlass
   suffix: CitrusBalance
   components:
   - type: SolutionContainerManager
@@ -58,7 +58,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOCitrusBalance
+        - ReagentId: EchoCitrusBalance
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/citrucbalance.rsi
@@ -66,7 +66,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkDobryiDrinkGlass
+  id: EchoDrinkDobryiDrinkGlass
   suffix: DobryiDrink
   components:
   - type: SolutionContainerManager
@@ -74,7 +74,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHODobryiDrink
+        - ReagentId: EchoDobryiDrink
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/dobryi.rsi
@@ -82,7 +82,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkMilkEclipseGlass
+  id: EchoDrinkMilkEclipseGlass
   suffix: MilkEclipse
   components:
   - type: SolutionContainerManager
@@ -90,7 +90,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOMilkEclipse
+        - ReagentId: EchoMilkEclipse
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/milkeclipse.rsi
@@ -98,7 +98,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkArcticExplosionGlass
+  id: EchoDrinkArcticExplosionGlass
   suffix: ArcticExplosion
   components:
   - type: SolutionContainerManager
@@ -106,7 +106,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOArcticExplosion
+        - ReagentId: EchoArcticExplosion
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/arcticexplosion.rsi
@@ -116,7 +116,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkAppleLiqueurGlass
+  id: EchoDrinkAppleLiqueurGlass
   suffix: AppleLiqueur
   components:
   - type: SolutionContainerManager
@@ -124,7 +124,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOAppleLiqueur
+        - ReagentId: EchoAppleLiqueur
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/apple_liqueur_glass.rsi
@@ -134,7 +134,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkSugarKnightGlass
+  id: EchoDrinkSugarKnightGlass
   suffix: SugarKnight
   components:
   - type: SolutionContainerManager
@@ -142,7 +142,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOSugarKnight
+        - ReagentId: EchoSugarKnight
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/sugarknight.rsi
@@ -150,7 +150,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkGrapeLadyGlass
+  id: EchoDrinkGrapeLadyGlass
   suffix: GrapeLady
   components:
   - type: SolutionContainerManager
@@ -158,7 +158,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOGrapeLady
+        - ReagentId: EchoGrapeLady
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/grapelady.rsi
@@ -166,7 +166,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkSaturdayBaronGlass
+  id: EchoDrinkSaturdayBaronGlass
   suffix: SaturdayBaron
   components:
   - type: SolutionContainerManager
@@ -174,7 +174,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOSaturdayBaron
+        - ReagentId: EchoSaturdayBaron
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/saturdaybaron.rsi
@@ -182,7 +182,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkArcticLatteGlass
+  id: EchoDrinkArcticLatteGlass
   suffix: ArcticLatte
   components:
   - type: SolutionContainerManager
@@ -190,7 +190,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOArcticLatte
+        - ReagentId: EchoArcticLatte
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/arcticlatte.rsi
@@ -198,7 +198,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkSpecialTeaOolongGlass
+  id: EchoDrinkSpecialTeaOolongGlass
   suffix: SpecialTeaOolong
   components:
   - type: SolutionContainerManager
@@ -206,7 +206,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOSpecialTeaOolong
+        - ReagentId: EchoSpecialTeaOolong
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/teaoolong.rsi
@@ -214,7 +214,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkAzureBlueGlass
+  id: EchoDrinkAzureBlueGlass
   suffix: AzureBlue
   components:
   - type: SolutionContainerManager
@@ -222,7 +222,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOAzureBlue
+        - ReagentId: EchoAzureBlue
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/azureblue.rsi
@@ -230,7 +230,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkPenetrationGlass
+  id: EchoDrinkPenetrationGlass
   suffix: PenetrationDrink
   components:
   - type: SolutionContainerManager
@@ -238,7 +238,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOPenetrationDrink
+        - ReagentId: EchoPenetrationDrink
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/penetration.rsi
@@ -246,7 +246,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkEclipsedEclispeGlass
+  id: EchoDrinkEclipsedEclispeGlass
   suffix: EclipsedEclispe
   components:
   - type: SolutionContainerManager
@@ -254,7 +254,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOEclipsedEclispe
+        - ReagentId: EchoEclipsedEclispe
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/eclipsedeclipse.rsi
@@ -262,7 +262,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkSpaceBushGlass
+  id: EchoDrinkSpaceBushGlass
   suffix: SpaceBush
   components:
   - type: SolutionContainerManager
@@ -270,7 +270,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOSpaceBush
+        - ReagentId: EchoSpaceBush
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/spacebush.rsi
@@ -278,7 +278,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkBusinessConversationGlass
+  id: EchoDrinkBusinessConversationGlass
   suffix: BusinessConversation
   components:
   - type: SolutionContainerManager
@@ -286,7 +286,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOBusinessConversation
+        - ReagentId: EchoBusinessConversation
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/buisinessconservation.rsi
@@ -294,7 +294,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkAppleMartiniGlass
+  id: EchoDrinkAppleMartiniGlass
   suffix: AppleMartini
   components:
   - type: SolutionContainerManager
@@ -302,7 +302,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOAppleMartini
+        - ReagentId: EchoAppleMartini
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/applemartini.rsi
@@ -310,7 +310,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkBacardiAppleGlass
+  id: EchoDrinkBacardiAppleGlass
   suffix: BacardiApple
   components:
   - type: SolutionContainerManager
@@ -318,7 +318,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOBacardiApple
+        - ReagentId: EchoBacardiApple
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/bacardiapple.rsi
@@ -326,7 +326,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: ECHODrinkElderGuardsGlass
+  id: EchoDrinkElderGuardsGlass
   suffix: ElderGuards
   components:
   - type: SolutionContainerManager
@@ -334,7 +334,7 @@
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ECHOElderGuards
+        - ReagentId: EchoElderGuards
           Quantity: 30
   - type: Icon
     sprite: _ECHO/Objects/Consumable/Drinks/elderguards.rsi

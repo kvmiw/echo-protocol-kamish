@@ -91,7 +91,7 @@
     - id: ClothingUniformJumpskirtOldDress
     - id: BikeHorn
     - id: ClownRecorder
-    - id: ClothingBeltSuspendersRed # ECHO-Tweak 
+    - id: ClothingBeltSuspendersRed # ECHO-Tweak
 
 - type: entity
   id: CrateServiceCustomSmokable
@@ -233,7 +233,7 @@
       - id: DrinkVodkaBottleFull
       - id: DrinkWhiskeyBottleFull
       - id: DrinkWineBottleFull
-      - id: ECHODrinkAppleLiqueurBottleFull #ECHO_Tweak
+      - id: EchoDrinkAppleLiqueurBottleFull #ECHO_Tweak
 
 - type: entity
   id: CrateServiceBox
