@@ -1,0 +1,11 @@
+- type: entity
+  id: EchoBarmenKettleCircuit
+  parent: BaseMachineCircuitboard
+  name: kettle machine board
+  description: A machine printed circuit board for a kettle.
+  components:
+    - type: MachineBoard
+      prototype: EchoBarmenKettle
+      stackRequirements:
+#        Capacitor: 2  пока нет в сборке
+        Glass: 1

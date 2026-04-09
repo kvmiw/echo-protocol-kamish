@@ -81,3 +81,51 @@ ent-EchoDrinkBacardiAppleGlass = { ent-DrinkGlass }
 ent-EchoDrinkElderGuardsGlass = { ent-DrinkGlass }
     .suffix = Старая гвардия
     .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkLimeShadeGlass = { ent-DrinkGlass }
+    .suffix = Лаймовый Шэйд
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkGoldenAleGlass = { ent-DrinkGlass }
+    .suffix = Золотой эль, Октоберфест
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkSausageBeerGlass = { ent-DrinkGlass }
+    .suffix = Сосисочное пиво, Октоберфест
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkTechnoBeerGlass = { ent-DrinkGlass }
+    .suffix = Пиво "Технарское", Октоберфест
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkClassicPaulanerBeerGlass = { ent-DrinkGlass }
+    .suffix = Классический пауланер, Октоберфест
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkLivseyBeerGlass = { ent-DrinkGlass }
+    .suffix = Пиво "Доктор Ливси", Октоберфест
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkLuckyJonnyBeerGlass = { ent-DrinkGlass }
+    .suffix = Пиво "Счастливчик Джонни", Октоберфест
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkSecUnfilteredBeerGlass = { ent-DrinkGlass }
+    .suffix = Пиво "Охранное нефильтрованное", Октоберфест
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkGlyphidStoutBeerGlass = { ent-DrinkGlass }
+    .suffix = Глифидский стаут, Октоберфест
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkOrangeTeaGlass = { ent-DrinkGlass }
+    .suffix = Апельсиновый чай
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkCherryTeaGlass = { ent-DrinkGlass }
+    .suffix = Вишнёвый чай
+    .desc = { ent-DrinkGlass.desc }
+
+ent-EchoDrinkWatermelonTeaGlass = { ent-DrinkGlass }
+    .suffix = Арбузный чай
+    .desc = { ent-DrinkGlass.desc }
