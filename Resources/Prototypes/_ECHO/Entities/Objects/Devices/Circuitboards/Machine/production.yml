@@ -1,20 +1,4 @@
 - type: entity
-  id: EchoIndustrialSMESMachineCircuitboard
-  parent: BaseMachineCircuitboard
-  name: Industrial SMES machine board
-  description: A machine printed circuit board for a SMES.
-  components:
-    - type: MachineBoard
-      prototype: EchoIndustrialSMESEmpty
-      stackRequirements:
-        Capacitor: 4
-        CableHV: 30
-      componentRequirements:
-        PowerCell:
-          amount: 16
-          defaultPrototype: PowerCellSmall
-
-- type: entity
   id: EchoBarmenKettleCircuit
   parent: BaseMachineCircuitboard
   name: kettle machine board
@@ -23,5 +7,4 @@
     - type: MachineBoard
       prototype: EchoBarmenKettle
       stackRequirements:
-        Capacitor: 2
         Glass: 1
