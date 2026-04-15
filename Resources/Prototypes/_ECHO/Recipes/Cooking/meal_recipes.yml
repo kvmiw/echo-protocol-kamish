@@ -1,26 +1,2 @@
-- type: microwaveMealRecipe
-  id: EchoDrinkTeaPackOrange
-  name: OrangeTeapack
-  result: EchoOrangeTeapack
-  time: 10
-  solids:
-    EchoEmptyTeaPack: 1
-    FoodOrange: 1
-
-- type: microwaveMealRecipe
-  id: EchoDrinkTeaPackCherry
-  name: CherryTeapack
-  result: EchoCherryTeapack
-  time: 10
-  solids:
-    EchoEmptyTeaPack: 1
-    FoodCherry: 1
-
-- type: microwaveMealRecipe
-  id: EchoDrinkTeaPackWatermelon
-  name: WatermelonTeapack
-  result: EchoWatermelonTeapack
-  time: 10
-  solids:
-    EchoEmptyTeaPack: 1
-    FoodWatermelonSlice: 1
+# Microwave recipes are frozen by integration tests.
+# These tea-pack recipes should be implemented via proper cooking/crafting mechanics instead.
