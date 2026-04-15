@@ -7,7 +7,6 @@
     containers:
       entity_storage: !type:NestedSelector
         tableId: FillLockerBooze
-        amount: 1
 
 - type: entityTable
   id: FillLockerBooze

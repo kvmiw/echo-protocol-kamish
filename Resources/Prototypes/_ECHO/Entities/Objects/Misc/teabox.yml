@@ -4,11 +4,12 @@
   id: EchoTeabox
   description: Woah. So much tea you have here.
   components:
+  - type: Item
+    shape:
+    - 0,0,1,0
   - type: Sprite
     sprite: _ECHO/Objects/Consumable/Drinks/teapack.rsi
     state: teabox
-    shape:
-    - 0,0,1,0
   - type: Storage
     maxItemSize: Tiny
     grid:
