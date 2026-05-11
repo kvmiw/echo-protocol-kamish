@@ -6,7 +6,6 @@
   components:
   - type: Item
     size: Tiny
-    solution: food
   - type: Openable
     sound:
       collection: packetOpenSounds

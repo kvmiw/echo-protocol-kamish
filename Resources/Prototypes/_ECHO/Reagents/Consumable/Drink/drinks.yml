@@ -278,13 +278,13 @@
 
 - type: reagent
   id: EchoYupiDryApple
-  slippery: false
   name: reagent-name-yupidryapple
   parent: BaseDrink
   desc: reagent-desc-yupidryapple
   physicalDesc: reagent-physical-desc-powdery
   flavor: EchoYupiDryApple
   color: "#e7191e"
+  slipData: null
   metabolisms:
     Digestion:
       effects:
