@@ -37,10 +37,10 @@
         - ReagentId: EchoOrangepackReg
           Quantity: 5
   - type: Sprite
-    sprite: _ECHO/Objects/Consumable/Drinks/sh4ziktea/orangetea.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/orangetea.rsi
     state: teapack
   - type: Icon
-    sprite: _ECHO/Objects/Consumable/Drinks/sh4ziktea/orangetea.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/orangetea.rsi
     state: teapack
   - type: Appearance
   - type: FlavorProfile
@@ -62,10 +62,10 @@
         - ReagentId: EchoCherrypackReg
           Quantity: 5
   - type: Sprite
-    sprite: _ECHO/Objects/Consumable/Drinks/sh4ziktea/cherrytea.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/cherrytea.rsi
     state: teapack
   - type: Icon
-    sprite: _ECHO/Objects/Consumable/Drinks/sh4ziktea/cherrytea.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/cherrytea.rsi
     state: teapack
   - type: Appearance
   - type: FlavorProfile
@@ -87,10 +87,10 @@
         - ReagentId: EchoWatermelonpackReg
           Quantity: 5
   - type: Sprite
-    sprite: _ECHO/Objects/Consumable/Drinks/sh4ziktea/watermelontea.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/watermelontea.rsi
     state: teapack
   - type: Icon
-    sprite: _ECHO/Objects/Consumable/Drinks/sh4ziktea/watermelontea.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/watermelontea.rsi
     state: teapack
   - type: Appearance
   - type: FlavorProfile
@@ -108,7 +108,7 @@
     tags:
     - EchoTeaPack
   - type: Sprite
-    sprite: _ECHO/Objects/Consumable/Drinks/sh4ziktea/teapack.rsi
+    sprite: _ECHO/Objects/Consumable/Drinks/teapack.rsi
     state: icon
   - type: Item
     size: Tiny
