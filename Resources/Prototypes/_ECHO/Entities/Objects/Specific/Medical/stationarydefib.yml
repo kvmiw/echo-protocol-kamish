@@ -26,14 +26,21 @@
       energyCost: 100
     - type: DoAfter
     - type: UseDelay
-    - type: Battery
-      maxCharge: 100
-      startingCharge: 100
+
 
 - type: entity
   id: StationaryDefibrillator
-  parent: [ BaseStationaryDefibrillator ]
+  parent: BaseStationaryDefibrillator
   components:
+  - type: ToggleCellDraw
+  - type: PowerCellDraw
+    drawRate: 2.4 # ~5 minutes on a medium power cell.
+    useCharge: 0
   - type: MultiHandedItem
-    useCharge: 100
   - type: ExaminableBattery
+  - type: Battery
+    maxcharge: 100
+    startingCharge: 50
+  - type: Tag
+    tags:
+    - Defibrillator

@@ -22,8 +22,8 @@
         insertVerbText: defibrillator-insert-verb
         ejectVerbText: defibrillator-eject-verb
         whitelist:
-         components:
-          - StationaryDefibrillator
+          tags:
+          - Defibrillator
   - type: Charger
     chargeRate: 40
     slotId: charger_slot
@@ -40,7 +40,7 @@
     - trigger: !type:DamageTrigger
         damage: 60
       behaviors:
-      - !type:EmptyAllContainersBehaviour
+      - !type:EmptyAllContainersBehaviour ''
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
       - !type:PlaySoundBehavior
