@@ -1,6 +1,6 @@
 - type: entity
   id: BaseStationaryDefibrillator
-  parent: BaseItem
+  parent: [BaseItem, PowerCellSlotMediumItem]
   name: stationary defibrillator
   description: .
   abstract: true
@@ -26,10 +26,9 @@
       energyCost: 100
     - type: DoAfter
     - type: UseDelay
-    - type: Battery
-      maxcharge: 100
-      startingCharge: 100
     - type: ToggleCellDraw
+    - type: PowerCellDraw
+      useCharge: 100
 
 - type: entity
   id: StationaryDefibrillator
@@ -40,6 +39,11 @@
     useCharge: 0
   - type: MultiHandedItem
   - type: ExaminableBattery
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        locked: true
+        startingItem: PowerCellMedium
   - type: Tag
     tags:
     - Defibrillator
